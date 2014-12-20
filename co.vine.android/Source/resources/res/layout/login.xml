@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/VineNormal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <EditText android:id="@id/login_username" android:hint="@string/login_username_hint" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/login_signup_username" android:layout_width="wrap_content" android:text="@string/login_username" android:layout_alignBottom="@id/login_username" style="@style/SignInLabel" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <EditText android:id="@id/login_password" android:hint="@string/login_password_hint" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/login_signup_password" android:layout_width="wrap_content" android:text="@string/login_password" android:layout_alignBottom="@id/login_password" android:inputType="textEmailAddress" style="@style/SignInLabel" />
+    </RelativeLayout>
+    <co.vine.android.widget.StyledTextView android:textColor="@color/forgot_password" android:gravity="center" android:id="@id/login_reset_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+</LinearLayout>

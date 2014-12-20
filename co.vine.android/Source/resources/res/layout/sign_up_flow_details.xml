@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/sign_up_username_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:layout_alignParentTop="true">
+        <EditText android:id="@id/signup_username" android:hint="@string/login_username_hint" android:inputType="textEmailAddress" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/label_signup_username" android:layout_width="wrap_content" android:text="@string/login_username" android:layout_alignBottom="@id/signup_username" style="@style/SignInLabel" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/sign_up_username_container">
+        <EditText android:id="@id/signup_password" android:hint="@string/login_password_hint" android:singleLine="true" android:inputType="textPassword" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/label_signup_password" android:layout_width="wrap_content" android:text="@string/login_password" android:layout_alignBottom="@id/signup_password" android:inputType="textEmailAddress" style="@style/SignInLabel" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/password">
+        <EditText android:id="@id/signup_phone" android:hint="@string/signup_phone_hint" android:singleLine="true" android:inputType="phone" android:imeOptions="actionDone" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/label_signup_phone" android:layout_width="wrap_content" android:text="@string/signup_phone" android:layout_alignBottom="@id/signup_phone" android:inputType="textEmailAddress" style="@style/SignInLabel" />
+    </RelativeLayout>
+    <co.vine.android.widget.TypefacesTextView android:gravity="center_horizontal" android:id="@id/phone_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="@dimen/list_row_padding" android:text="@string/signup_phone_instructions" android:layout_below="@id/phone" android:lineSpacingExtra="2.0sp" style="@style/SignupTOS" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/phone_instructions">
+        <co.vine.android.widget.TypefacesTextView android:id="@id/tos_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_up_tos_line_1" style="@style/SignupTOS" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/tos_line_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/tos_line" style="@style/SignupTOS" />
+    </RelativeLayout>
+</RelativeLayout>

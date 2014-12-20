@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="66.0dip">
+        <co.vine.android.views.SwitchImple android:id="@id/accept_oon_switch" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/VineSwitch" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_toLeftOf="@id/accept_oon_switch" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <co.vine.android.widget.TypefacesTextView android:id="@id/vm_inbox" android:text="@string/settings_accepts_oon" style="@style/PrivacyControlsLabel" />
+            <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_accepts_oon_desc" android:layout_below="@id/vm_inbox" android:lineSpacingExtra="1.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/rule_horizontal_5" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="66.0dip">
+        <co.vine.android.views.SwitchImple android:id="@id/address_book_switch" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/VineSwitch" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_toLeftOf="@id/address_book_switch" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <co.vine.android.widget.TypefacesTextView android:id="@id/address_book" android:text="@string/settings_address_book" style="@style/PrivacyControlsLabel" />
+            <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="#ff333333" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_address_book_desc" android:layout_below="@id/address_book" android:lineSpacingExtra="1.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/rule_horizontal_5" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

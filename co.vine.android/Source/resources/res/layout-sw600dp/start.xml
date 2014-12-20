@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <co.vine.android.player.SdkVideoView android:id="@id/start_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_signup" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/start_sign_up_email_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <Button android:textColor="@color/start_text_email" android:id="@id/start_sign_up_email" android:background="@drawable/btn_sign_up_mail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="6.0" style="@style/SignUpButton" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/start_sign_up_email_container">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <Button android:textColor="@color/solid_white" android:id="@id/sign_up_twitter" android:background="@drawable/btn_sign_up_twitter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_small" android:layout_weight="6.0" style="@style/SignUpButton" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <co.vine.android.widget.TypefacesTextView android:textColor="@color/start_text" android:gravity="center" android:id="@id/start_sign_in" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

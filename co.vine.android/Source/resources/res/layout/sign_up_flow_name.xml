@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:paddingTop="36.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/user_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_medium">
+        <include layout="@layout/user_image_container_large" />
+    </RelativeLayout>
+    <EditText android:textStyle="bold" android:id="@id/sign_up_username" android:hint="@string/signup_name_hint" android:layout_below="@id/user_image_container" android:inputType="textCapWords|textNoSuggestions" style="@style/EditText.SignUp" />
+    <RelativeLayout android:id="@id/phone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/sign_up_username">
+        <EditText android:id="@id/signup_phone" android:hint="@string/signup_phone_hint" android:singleLine="true" android:layout_below="@id/password" android:inputType="phone" android:imeOptions="actionDone" style="@style/EditText.SignIn" />
+        <co.vine.android.widget.TypefacesTextView android:id="@id/label_signup_phone" android:layout_width="wrap_content" android:text="@string/signup_phone" android:layout_alignBottom="@id/signup_phone" style="@style/SignInLabel" />
+        <co.vine.android.widget.TypefacesTextView android:gravity="center_horizontal" android:id="@id/phone_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="@dimen/list_row_padding" android:text="@string/signup_twitter_instructions" android:layout_below="@id/label_signup_phone" android:lineSpacingExtra="2.0sp" style="@style/SignupTOS" />
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/phone_instructions">
+            <co.vine.android.widget.TypefacesTextView android:id="@id/tos_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_up_tos_line_1" style="@style/SignupTOS" />
+            <co.vine.android.widget.TypefacesTextView android:id="@id/tos_line_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/tos_line" style="@style/SignupTOS" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

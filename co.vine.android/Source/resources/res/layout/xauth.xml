@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/VineNormal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <EditText android:gravity="left" android:id="@id/login_username" android:paddingLeft="20.0dip" android:hint="@string/login_xauth_username_hint" android:inputType="textEmailAddress" style="@style/EditText.SignIn" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <EditText android:gravity="left" android:id="@id/login_password" android:paddingLeft="20.0dip" android:hint="@string/login_xauth_password_hint" android:inputType="textPassword" style="@style/EditText.SignIn" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/tos_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_xlarge">
+        <co.vine.android.widget.TypefacesTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_xauth_tos_line_1" style="@style/SignupTOS" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <co.vine.android.widget.TypefacesTextView android:id="@id/tos_line_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SignupTOS" />
+    </RelativeLayout>
+</LinearLayout>

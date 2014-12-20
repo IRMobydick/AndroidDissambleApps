@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vine="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/contacts_count_container" android:paddingTop="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/text_fineprint" android:id="@id/contacts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <co.vine.android.widget.TypefacesTextView android:textSize="@dimen/font_size_small" android:textColor="@color/vine_green" android:id="@id/select_all_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" vine:textWeight="4" />
+        </LinearLayout>
+        <View android:background="@drawable/rule_horizontal_5" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="12.0dip" android:layout_below="@id/text_container" />
+    </RelativeLayout>
+    <include android:id="@*android:id/empty" layout="@layout/find_friends_twitter_empty" />
+    <com.twitter.android.widget.RefreshableListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/rule_horizontal_5" android:dividerHeight="2.0dip" android:layout_below="@id/contacts_count_container" style="@style/List.Refreshable" />
+</RelativeLayout>
