@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:baselineAligned="false" android:divider="?android:dividerHorizontal" android:showDividers="none"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cuerpo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bannerADS" android:layout_alignParentTop="true">
+        <fragment android:name="se.verifique.app.cedula.ItemListFragment" android:layout_gravity="bottom" android:id="@id/item_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/login_status" android:background="@color/gris" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="?android:attr/progressBarStyleLarge" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_horizontal" android:id="@id/login_status_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/login_progress_signing_in" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/bannerADS" android:background="@color/gris" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="common_signin_btn_dark_text_default">@*android:color/white</item>
+    <item type="color" name="common_signin_btn_dark_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item type="color" name="common_signin_btn_dark_text_focused">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <item type="color" name="common_signin_btn_light_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_hint_foreground_holo_light">#ff808080</color>
+    <color name="wallet_hint_foreground_holo_dark">#ff808080</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#ff0000ee</color>
+    <color name="statusBackground">#bb000000</color>
+    <color name="statusForeground">#ddeeeeee</color>
+    <color name="helpButtonBackgroundNormal">#aa000000</color>
+    <color name="helpButtonBackgroundPressed">#aa888888</color>
+    <color name="helpButtonBackgroundDisabled">#22000000</color>
+    <color name="closeButtonBackgroundNormal">#ffc41a2e</color>
+    <color name="closeButtonBackgroundPressed">#ff76101c</color>
+    <color name="helpButtonBorder">#aabbbbbb</color>
+    <color name="helpButtonForeground">#ddeeeeee</color>
+    <color name="textback">#ff000000</color>
+    <color name="greendark">#ff669900</color>
+    <color name="greenlight">#ff5ec102</color>
+    <color name="formDetect_frame">#ddeee718</color>
+    <color name="default_frame">#00f60c0c</color>
+    <color name="recognized_frame">#dd2dee06</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_gradient_start">#ffffffff</color>
+    <color name="background_gradient_stop">#ffc8c8c8</color>
+    <color name="gris">#ff000000</color>
+    <color name="negro">#ff000000</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
