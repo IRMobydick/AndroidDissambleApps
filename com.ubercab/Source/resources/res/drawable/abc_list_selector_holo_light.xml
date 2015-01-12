@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<item
+		android:state_window_focused="false"
+		android:drawable="@android:0106000D"
+		>
+	</item>
+	<item
+		android:state_focused="true"
+		android:state_enabled="false"
+		android:state_pressed="true"
+		android:drawable="@7F020024"
+		>
+	</item>
+	<item
+		android:state_focused="true"
+		android:state_enabled="false"
+		android:drawable="@7F020024"
+		>
+	</item>
+	<item
+		android:state_focused="true"
+		android:state_pressed="true"
+		android:drawable="@7F020022"
+		>
+	</item>
+	<item
+		android:state_focused="false"
+		android:state_pressed="true"
+		android:drawable="@7F020022"
+		>
+	</item>
+	<item
+		android:state_focused="true"
+		android:drawable="@7F02001D"
+		>
+	</item>
+</selector>

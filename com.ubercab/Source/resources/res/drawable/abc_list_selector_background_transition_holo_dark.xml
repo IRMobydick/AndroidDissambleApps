@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<item
+		android:drawable="@7F02001F"
+		>
+	</item>
+	<item
+		android:drawable="@7F02001E"
+		>
+	</item>
+</transition>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:insetLeft="@7F0A000C"
+	android:insetRight="@7F0A000C"
+	android:insetTop="@7F0A000C"
+	android:insetBottom="@7F0A000C"
+	>
+	<selector
+		>
+		<item
+			android:state_focused="true"
+			android:state_enabled="true"
+			android:drawable="@7F02002E"
+			>
+		</item>
+		<item
+			android:state_enabled="true"
+			android:drawable="@7F02002E"
+			android:state_activated="true"
+			>
+		</item>
+		<item
+			android:state_enabled="true"
+			android:drawable="@7F02002F"
+			>
+		</item>
+		<item
+			android:drawable="@7F02002F"
+			>
+		</item>
+	</selector>
+</inset>

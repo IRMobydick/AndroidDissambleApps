@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<item
+		android:id="@android:01020000"
+		android:drawable="@7F020174"
+		>
+	</item>
+	<item
+		android:id="@android:0102000F"
+		>
+		<scale
+			android:drawable="@7F020176"
+			android:scaleWidth="100%"
+			>
+		</scale>
+	</item>
+	<item
+		android:id="@android:0102000D"
+		>
+		<scale
+			android:drawable="@7F020175"
+			android:scaleWidth="100%"
+			>
+		</scale>
+	</item>
+</layer-list>

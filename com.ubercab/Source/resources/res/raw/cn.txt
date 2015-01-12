@@ -1,0 +1,9 @@
+{
+    "cnList": [
+        {
+            "ssl": true,
+            "host": "cn.uber.com",
+            "port": 443
+        }
+    ]
+}

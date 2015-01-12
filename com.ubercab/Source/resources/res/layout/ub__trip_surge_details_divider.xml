@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+java.lang.ArrayIndexOutOfBoundsException: 54
+	at android.content.res.StringBlock.getShort(StringBlock.java:231)
+	at android.content.res.StringBlock.getString(StringBlock.java:91)
+	at android.content.res.AXmlResourceParser.getName(AXmlResourceParser.java:140)
+	at test.AXMLPrinter.main(AXMLPrinter.java:71)
+	at test.AXMLPrinter.parse(AXMLPrinter.java:43)
+	at directandroidresourcesextractor.DirectAndroidResourcesExtractor.main(DirectAndroidResourcesExtractor.java:42)
